@@ -1,0 +1,9 @@
+{
+  "config": {
+    "vendor-dir": "php/_plugins"
+  },
+  "require": {
+    "slim/slim": "^2.0",
+    "phpmailer/phpmailer": "^5.2"
+  }
+}
