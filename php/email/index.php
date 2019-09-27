@@ -46,7 +46,7 @@ function send()
         $mail->From = $item->from->email;
         $mail->FromName = $item->from->name;
 
-        foreach ($item->for as $values) {
+        foreach ($item->address as $values) {
             if (!empty($values->email) && !empty($values->name)) {
                 $mail->AddAddress($values->email, $values->name);
             }

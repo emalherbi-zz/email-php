@@ -27,7 +27,7 @@ Cache-Control: no-cache
         "name": "xxxxx",
         "email": "xxxxx@domain.com"
     },
-    "for": [{
+    "address": [{
         "name": "yyyyy",
         "email": "yyyyy@gmail.com"
     }, {
